@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.photo{
+    width: 50%;
+    height: 100vh;
+    background-image: url('phone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.main{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(138, 43, 226,0.5);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.box{
+    margin: 20px;
+}
+
+.submit{
+    width:30%;
+    height:25px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
